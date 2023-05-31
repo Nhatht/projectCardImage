@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    font-size: 1.6rem;
+}
+/* card */
+.container{
+    /* border: 2px solid red; */
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+.card__block{
+    width: 25.6rem;
+    margin: 0.3rem;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    padding: 0.5rem;
+}
+.card__block:hover{
+    box-shadow: 1px 7px 11px 0px #746262;
+}
+.card__img{
+    border: 2px solid royalblue;
+    height: 24.2rem;
+}
+.card__img img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+ .card__infor{
+    padding: 0.5rem 0;
+ }
+ .card__infor p{
+    font-size: 1.5rem;
+    font-weight: 700;
+ }
+ .card__infor p span{
+    font-size: 1.4rem;
+    font-weight: 400;
+ }
+ /* 1320 - 10 = 1310
+1310/5 => 262(px)
+vì margin 2 bên bằng 3px nên
+thực tên card = 256px */
+.card__controller{
+    display: flex;
+}
+.card__controller__block{
+    width: 50%;
+}
+.btn__card__controller{
+    display: block;
+    width: 100%;
+    background-color: aquamarine;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.btn__card__controller:hover{
+    background-color: rgb(75, 228, 177);
+}
+.card-carousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
